@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/btn_loadShared"
+        android:onClick="loadShared"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOAD SHARED PREFERENCE"
@@ -16,6 +17,7 @@
 
     <Button
         android:id="@+id/btn_loadInternal"
+        android:onClick="loadInternal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOAD INTERNAL STORAGE"
@@ -33,6 +35,7 @@
 
     <Button
         android:id="@+id/btn_clear"
+        android:onClick="clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CLEAR"
@@ -42,7 +45,8 @@
         />
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/btn_back"
+        android:onClick="back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
